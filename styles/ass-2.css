@@ -1,0 +1,111 @@
+/* shared css */
+.primary-balck{
+    color: #000000;
+}
+.primary-ash{
+    color: rgba(0, 0, 0, 0.5);
+}
+.primary-orange{
+    color: #E95A08;
+}
+
+
+/* nav related style */
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+    margin: 43px 150px;
+}
+.nav-right ul{
+    display: flex;
+    list-style: none;
+    
+     
+    
+}
+.nav-ul li a {
+  text-decoration: none;
+  color: black; 
+  
+}
+.nav-ul{
+    gap: 48px;
+}
+.home-span{
+    color: #252432;
+      font-weight: 600;
+}
+
+
+/* banner related styles */
+.banner{
+    margin: 44px 150px;
+}
+.banner-div{
+    display: flex;
+    justify-content: space-between;
+   align-items: last baseline;
+    
+}
+.banner-righ-img img{
+    /* width: 100%; */
+    width: 570px;
+    height: 355px;
+}
+.banner-left{
+    width: 570px;
+    padding-bottom: 162px;
+    
+}
+.banner-left-tittle{
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-left-desc{
+    font-size: 22px;
+    width: 570px;
+   
+}
+/* plans section csss */
+.plants{
+    margin: 43px 150px;
+}
+.plants-div-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+.center {
+  width: 50%;    
+  margin: 0 auto;
+  text-align: center;
+}
+/* plants css */
+.palnts-desc center{
+    font-size: 22px;
+    width: 888px;
+}
+.pants-tittle{
+    font-size: 50px;
+    font-weight: 600;
+}
+.plants-div-container{
+    margin-top: 49px;
+}
+.card{
+  text-align: center;
+}
+.card-btn {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
