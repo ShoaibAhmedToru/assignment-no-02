@@ -109,3 +109,173 @@
   margin-top: 10px;
   
 }
+
+/* plants lover section */
+.plants-lover-div{
+    display: flex;
+     margin: 43px 150px;
+     margin-top: 210px;
+    
+}
+.plants-lover-img img{
+    width: 540px;
+    height: 597px;
+
+}
+.plants-lover-text{
+    width: 540px;
+    height: 521px;
+    padding-left: 60px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.plants-lover-text-heading{
+    font-size: 50px;
+    font-weight: 700;
+   
+}
+.plants-lover-text-desc{
+    text-align: center;
+    font-size: 22px;
+}
+.plants-lover-text-desc ul li {
+    margin-top: 20px; 
+    text-align: left;
+}
+
+/* latest deaaaaaaaaal */
+.latest-deal-div{
+    text-align: center;
+    margin-top: 134px;
+}
+.latest-deal-desc{
+    font-size: 22px;
+    margin-left: 276px;
+    margin-right: 276px;
+}
+.latest-deal-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* promo css */
+.promo-section {
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.promo-grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  height: 400px; 
+}
+
+
+.promo-box {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+.right-box {
+    
+  grid-column: 2 / 40;
+  grid-row: 1 / span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.left-box{
+    align-items: center;
+    text-align: center;
+}
+
+.bloom-plant {
+  background-image: url('../image/deal-bloom.png');
+}
+.ana-plant {
+  background-image: url('../image/deal-ana.png');
+}
+.zabo-plant {
+  background-image: url('../image/deal-zabo.png');
+}
+
+.promo-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  color:white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.zabo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.zabo-head{
+    font-size: 40px;
+    font-weight: bold;
+}
+.boloom-ana-head{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* join sectio styles */
+.join-section {
+  background-image: url('../image/news-letter-bg.png'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 533px;
+  margin: 0px;
+}
+.join-tittle{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.jont-box{
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.join-field{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+.join-field input{
+    width: 644px;
+}
+
+.joint-btn{
+  padding: 5px 15px;
+  font-size: 16px;
+  background-color: #E95A08;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+}
+
