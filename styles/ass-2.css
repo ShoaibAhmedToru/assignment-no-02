@@ -128,6 +128,7 @@
     padding-left: 60px;
     padding-top: 38px;
     padding-bottom: 38px;
+    position: relative;
 }
 .plants-lover-text-heading{
     font-size: 50px;
@@ -141,6 +142,13 @@
 .plants-lover-text-desc ul li {
     margin-top: 20px; 
     text-align: left;
+}
+.trusted-badge {
+  position: absolute;
+  top: -90px;
+  right: 530px;
+  width: 200px;  
+  height: auto;
 }
 
 /* latest deaaaaaaaaal */
@@ -278,4 +286,69 @@
   border-radius: 0 5px 5px 0;
   color: white;
 }
+/* footer cssssssssss */
+
+.footer {
+  background-color: #ffffff;
+  padding: 40px 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-left .logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  color: #555;
+  max-width: 250px;
+}
+
+.footer-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+  gap: 40px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+
+
+.footer-social {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.footer-social img {
+  width: 28px;
+  height: 28px;
+}
+
 
