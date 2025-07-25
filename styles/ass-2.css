@@ -486,6 +486,9 @@
   }
 
   /* JOIN SECTION */
+  .join-section{
+    margin-top: 100px;
+  }
   .join-section {
     height: auto;
     padding: 20px;
