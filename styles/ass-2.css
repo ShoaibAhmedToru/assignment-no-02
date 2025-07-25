@@ -352,18 +352,17 @@
   width: 28px;
   height: 28px;
 }
+/* responsive */
 
-/* mobile responsive */
+
+@media screen and (max-width: 768px) {
 
 
-@media (max-width: 570px) {
-
-  /* General Reset */
   * {
     box-sizing: border-box;
   }
 
-  /* NAV */
+  /* nav section */
   .nav {
     flex-direction: row;
     margin: 20px;
@@ -378,7 +377,7 @@
     display: none;
   }
 
-  /* BANNER */
+  /* banner section */
   .banner {
     margin: 20px;
   }
@@ -403,7 +402,7 @@
     height: auto;
   }
 
-  /* PLANTS SECTION */
+  /* plants section */
   .plants {
     margin: 20px;
     text-align: center;
@@ -423,7 +422,7 @@
     display: none;
   }
 
-  /* PLANTS LOVER SECTION */
+  /* plants and lover section*/
   .plants-lover-div {
     flex-direction: column;
     margin: 20px;
@@ -450,7 +449,7 @@
     display: none;
   }
 
-  /* LATEST DEAL */
+  /* laatest dealll */
   .latest-deal-div {
     margin: 50px 20px;
     text-align: center;
@@ -464,7 +463,7 @@
     margin: auto;
   }
 
-  /* PROMO SECTION */
+  /* promo */
   .promo-section {
     margin: 20px;
   }
@@ -485,7 +484,7 @@
     font-size: 16px;
   }
 
-  /* JOIN SECTION */
+  /* jon section */
   .join-section{
     margin-top: 100px;
   }
@@ -511,7 +510,7 @@
     width: 100%;
   }
 
-  /* FOOTER */
+  /*foooooter */
   .footer {
     margin: 20px;
     padding: 20px;
