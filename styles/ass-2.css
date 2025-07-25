@@ -26,7 +26,7 @@
 }
 .nav-ul li a {
   text-decoration: none;
-  color: black; 
+  color: rgba(0, 0, 0, 0.5);
   
 }
 .nav-ul{
@@ -291,6 +291,8 @@
 .footer {
   background-color: #ffffff;
   padding: 40px 60px;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
 .footer-container {
@@ -311,7 +313,7 @@
 }
 
 .footer-left p {
-  color: #555;
+  color: rgba(0, 0, 0, 0.5);
   max-width: 250px;
 }
 
@@ -334,7 +336,7 @@
 
 .footer-links a {
   text-decoration: none;
-  color: #333;
+  color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
 }
 
